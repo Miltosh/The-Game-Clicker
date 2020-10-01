@@ -9,7 +9,7 @@ const TIMEOUT = 5000; // The game runs for 5 seconds
 
 let result = []; // Array of best results
 
-// function for sort best results from more to less
+// function for sort best results in descending order
 const bubbleSort = (arr) => {
 	for (let j = arr.length - 1; j > 0; j--) {
 		for (let i = 0; i < j; i++) {
